@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+img{
+    width: 100%;
+}
+ul{
+    font-size: 0.7em;
+}
+.left,.right{    
+    float: left;
+    height: 37vh;
+}
+.left{
+    background-color: salmon;    
+    width: 70%;
+    overflow: auto;
+}
+.right{
+    background-color: sienna;
+    width: 30%;
+}
+.list{
+    background-color: slateblue;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    clear: left;
+}
+.header,.footer{
+    
+    height: 20%;
+    text-align: center;
+    background-color: #040273;   
+}

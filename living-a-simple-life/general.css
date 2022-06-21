@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #707070;
+    font-family: 'Ubuntu',sans-serif;
+}
+h1,h3{
+    font-family: 'Lora',serif;
+    color: #143774 ;
+}
+ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #1792D2
+}
+nav ul li a:active,nav ul li a:focus{
+    border-bottom: 0.2em solid #1792D2;
+}
+.navbar{
+    background-color: #F8F8F8;
+}
+.para-link,#subtitle{
+    color: #1792D2;
+}
+#subtitle{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.para-link-bold{
+    text-decoration: none;
+    font-weight: bold;
+}
+.img-1{
+    background-image: url('./images/life.jpg');
+}
+.img-2{
+    background-image: url('./images/food.jpg');
+}
+.img-3{
+    background-image: url('./images/work.jpg');
+}
+.img-4{
+    background-image: url('./images/deco.jpg');
+}
+.pictures{
+    color: #143774;
+}
+.footer{
+    background-color: #143774;
+    color: white;
+}

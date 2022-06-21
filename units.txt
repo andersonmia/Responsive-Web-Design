@@ -1,0 +1,22 @@
+percentages are absolute units.
+_________________________________
+
+the element's width or height will be adjusted relative to it's parent container.
+
+relative units
+________________
+these are measured relative to a font size or the view port or something else
+e.g
+    - em : relative to the parent font size
+    - rem(root em): it is always relative to the root of the HTML page (the defaults)
+
+General rule of thumb:    
+______________________
+    - font-size: rem
+    - padding : em
+    - margin: em
+    - width: percentage, em
+
+    When em is relative to the font-size of the element, it scales with the font.
+    e.g. if the font is 24px, and the padding is of that element is set to 1em
+    then th padding is 24px as well

@@ -1,0 +1,22 @@
+MEDIA QUERIES:
+______________
+Media queries let us add new styles that target only specific conditions
+
+    Basic syntax:
+    _____________
+    @media (){ ... }
+    eg @media media-type and (media-features){ ... }
+
+    * media types (let us targrt different types of media)
+        - Screen @media screen{ ... }
+        - print  @media print { ... }
+        - speech @media speech{ ... }
+    
+    * conditions within media types
+        - widths @media (min-width: 600px){ ... }
+        - orientation @media (orientation: landscape){ ... }
+        -specific features @media(hover){ ... }
+
+    *NB: 
+        - both media types and conditions are optional.. but you must have either of them to use media queries
+        - to combine both type and a condition, you have to use the word and

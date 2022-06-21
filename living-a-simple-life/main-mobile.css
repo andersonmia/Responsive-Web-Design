@@ -1,0 +1,12 @@
+@media screen and(max-width:558px
+) {
+    div.main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    div.column,div.row{
+        display: flex;
+        flex-direction: column;
+    }
+}

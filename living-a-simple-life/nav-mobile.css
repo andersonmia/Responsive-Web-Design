@@ -1,0 +1,20 @@
+@media screen and (max-width: 558px) {
+    div.navbar,div.header{
+        display: flex;
+        flex-direction: column; 
+    }
+    div.header,nav{
+        margin: auto;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+    div.header{
+        text-align: center;
+    }    
+    nav ul li{
+        margin:  1em 0;
+    }
+    li{
+        text-align: center;
+    }    
+}

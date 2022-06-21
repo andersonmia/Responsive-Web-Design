@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    margin: 1em 0;
+}
+.main{
+    background-color: #fff;
+    height: 100vh;
+}
+.columns{
+    height: 38%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    height: 24%;
+    background-color: slategrey;    
+}
+.div2{
+    background-color: sienna;  
+    width: 20%;  
+}
+.div3{
+    background-color: sandybrown;
+    width: 50%;
+}
+.div4{
+    background-color: saddlebrown;
+    width: 25%;
+}
+.div2,.div3,.div4{
+    height: 100%;
+}
+.div5{
+    background-color: salmon;
+    width: 72.5%;
+}
+.div6{
+    background-color: #040273;
+    width: 25%;
+}
+.div5,.div6{
+    height: 100%;
+}

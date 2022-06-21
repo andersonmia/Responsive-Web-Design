@@ -1,0 +1,20 @@
+divs normally stay top of each other (arrange themselves in rows)
+
+but if the display of the container is set to flex,
+then they will turn into columns!!
+
+flex-box
+__________
+- the flex box can be used instead of the float..
+- with flex-box we can space the flex-items using
+ justify content.
+  (it takes the remaining free space of the flex-container and distributes it to the flex-items basing on the value of that justify-content attribute)
+- align-items: this helps to align the flex-items,
+incase the flex-items have different heights, this considers their heights, not the height of the item with the max height
+
+flex-direction:
+- row: means that the flex-container is row thus the flex-items will be columns
+- column: means that the flex-container is a column, thus the flex-items will be rows
+
+* align-items always works on the cross axis
+  justify-content works on the main axis
