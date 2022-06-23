@@ -21,4 +21,13 @@
         position: relative;
         top: 3em;
     }
+    div.sm-img img{
+        object-fit:cover;
+        object-position: center;
+        height: 150px;
+    }
+    /* object fit prevents the over-stretching of an image when the height and width
+    are not in a proportional ratio by cropping the image to prevent ugly layout or appearance */
+
+    /* the object position decides the side that will be seen and crops from the other side */
 }

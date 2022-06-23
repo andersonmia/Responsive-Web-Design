@@ -1,0 +1,8 @@
+For mobile devices, the browser just shrinks the page
+so the layout will be the same as the one on desktop, thus the media queries won't work
+despite the hard work unless you include the meta tag
+
+*syntanx
+________
+
+<meta name="viewport"  content="width=device-width", initial-scale=1">

@@ -72,8 +72,10 @@ body h3, body h4{
 div#post-1,div#post-2,div#post-3{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 2em;
+    align-items: center; 
+    margin-bottom: 2em;  
+}
+div#post-1,div#post-2{
     border-bottom: 2px solid;
 }
 .pictures div img{
