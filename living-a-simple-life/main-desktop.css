@@ -1,0 +1,24 @@
+@media screen and (min-width: 716px){
+
+    div.main{
+        display: flex;
+    }
+    div.row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    div.img{
+        margin: 0 1em 0 0;
+    }
+    div.row div.sm-img{
+        width: 30%;
+    }
+    div.row div.explain{
+        width: 65%
+    }
+    div#top{
+        position: relative;
+        top: 3em;
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 716px){
+    div.navbar,nav ul{
+        display: flex;
+        justify-content:space-between;
+        padding: 1em;
+
+    }
+    nav ul li{
+        margin: .5em;
+    }   
+}

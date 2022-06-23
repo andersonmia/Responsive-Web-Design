@@ -13,6 +13,7 @@ ul{
 }
 nav ul li a{
     text-decoration: none;
+    font-weight: bold;
 }
 nav ul li a:hover{
     color: #1792D2
@@ -23,10 +24,13 @@ nav ul li a:active,nav ul li a:focus{
 img{
     width: 100%;
 }
+body h3, body h4{
+    margin-bottom: .5em;
+}
 .navbar{
     background-color: #F8F8F8;
 }
-.para-link,#subtitle{
+.para-link,#subtitle,h4{
     color: #1792D2;
 }
 #subtitle{
@@ -47,8 +51,13 @@ img{
     align-items: center;
     padding-top: 1em;
     padding-bottom: 1em;
+    height: 20em;
 }
-.footer p, .footer h5{
+.footer a{
+    margin-top: 1em;
+    text-decoration: none;
+}
+.footer p, .footer h5, .footer a{
     color: white;
 }
 .content,.pictures{
@@ -72,4 +81,16 @@ div#post-1,div#post-2,div#post-3{
 }
 .posts{
     padding: 1em 2em 0em 2em;
+}
+div.pictures,div.posts{
+    border:solid 1em#EBEBEB;
+}
+
+div#about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#about-me p,div.posts p{
+    text-align: center;
 }

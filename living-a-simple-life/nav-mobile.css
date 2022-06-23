@@ -1,9 +1,9 @@
-@media screen and (max-width: 558px) {
-    div.navbar,div.header{
+@media screen and (max-width: 715px){
+    div.navbar,nav ul{
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;        
     }
-    div.header,nav{
+    div.header,nav ul{
         margin: auto;
         margin-bottom: 1em;
         width: 100%;
@@ -12,7 +12,7 @@
         text-align: center;
     }    
     nav ul li{
-        margin:  1em 0;
+        margin:  .5em 0;
     }
     li{
         text-align: center;
